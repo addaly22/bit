@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediksi Harga Bittensor (TAO)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📈 Prediksi Harga Bittensor (TAO)</h1>
+
+  <label>Tanggal</label>
+  <input type="date" id="tanggal">
+
+  <label>Jam</label>
+  <input type="number" id="jam" min="0" max="23" value="12">
+
+  <button onclick="predict()">Prediksi</button>
+
+  <div class="result">
+    <h3>Hasil Prediksi</h3>
+    <p>USD: <span id="usd">-</span></p>
+    <p>IDR: <span id="idr">-</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
